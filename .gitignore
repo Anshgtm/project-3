@@ -1,0 +1,11 @@
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+backend/.env
+
+# Dependency/build output
+**/node_modules/
+**/dist/
+**/.vite/
